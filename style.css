@@ -1,0 +1,21 @@
+body {
+    background-color: pink;
+}
+
+p {
+    font-size: 20px;
+}
+
+.lewy {
+    float: left;
+    width: 50%;
+}
+
+.prawy {
+    width: 50%;
+    float: right;
+}
+
+ul li {
+    display: inline;
+}
