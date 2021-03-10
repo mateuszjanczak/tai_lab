@@ -6,3 +6,7 @@ body {
     width: 250px;
     height: auto;
 }
+
+.footer-container {
+    background-color: #f0e9ea;
+}
