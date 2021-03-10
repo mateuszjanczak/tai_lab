@@ -8,6 +8,5 @@ body {
 }
 
 .footer-container {
-    text-align: center;
-    border-top: 1px solid black;
+    background-color: #f0e9ea;
 }
