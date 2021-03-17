@@ -104,7 +104,7 @@ function saveScore(score) {
 }
 
 previous.addEventListener('click', function () {
-    if(index - 1 === 0) {
+    if(index === 0) {
         return;
     }
 
