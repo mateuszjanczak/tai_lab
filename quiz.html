@@ -15,9 +15,10 @@
 
 
 <div class="container list">
-    Question: <h4 class="question"></h4>
+    <p>Question:</p><h4 class="question"></h4>
+    <p class="question-number"></p>
 
-    Answers:
+    <p>Answers:</p>
     <ul class="list-group">
         <li class="list-group-item"></li>
         <li class="list-group-item"></li>
@@ -30,12 +31,9 @@
         <button class="btn btn-success next">Next</button>
     </div>
 
-    <h4>Your score: <span class="score">0</span>/20 points.</h4>
+    <h4 class="text-center">Your score: <span class="score">0</span>/20 points.</h4>
 </div>
 <div class="container results" style="display: none">
-    <div class="btn-group-custom">
-        <button class="btn btn-success btn-custom restart">Retake quiz</button>
-    </div>
     <div class="score">
         <table class="table table-striped">
             <thead>
@@ -53,6 +51,9 @@
             </tr>
             </tbody>
         </table>
+        <div class="btn-group-custom">
+            <button class="btn btn-success btn-custom restart">Retake quiz</button>
+        </div>
     </div>
 </div>
 
