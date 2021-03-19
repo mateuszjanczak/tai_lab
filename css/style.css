@@ -1,10 +1,19 @@
 body {
     width: 100%;
     font-size: 14px;
+    background: #88c3b1;
 }
 
 .container {
     margin-top: 50px;
+}
+
+.container > div {
+    margin-bottom: 2rem;
+}
+
+.container > div:last-child {
+    margin-bottom: 0;
 }
 
 .list-group-item {
@@ -12,13 +21,33 @@ body {
 }
 
 .correct {
-    background-color: #289a27;
+    background-color: #35ec33 !important;
 }
 
 .incorrect {
-    background-color: #c41a21;
+    background-color: #db585b;
+}
+
+.unknown {
+    background-color: silver;
+}
+
+.current {
+    background: #e9a83c;
 }
 
 .buttons {
     padding: 10px 10px 10px 0;
+}
+
+.tasks {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 2px;
+}
+
+.tasks div {
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10%;
 }

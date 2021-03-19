@@ -13,46 +13,76 @@
 
 </div>
 
+<div class="container intro bg-light border">
+    <div class="jumbotron jumbotron-fluid bg-light">
+        <div class="container text-center">
+            <h1>Q U I C K Q U I Z</h1>
+            <hr class="m-5">
+            <p class="lead">
+                <button class="btn btn-secondary btn-lg start" href="#" role="button" disabled>START</button>
+            </p>
+        </div>
+    </div>
+</div>
 
-<div class="container list">
-    <p>Question:</p><h4 class="question"></h4>
-    <p class="question-number"></p>
 
-    <p>Answers:</p>
-    <ul class="list-group">
-        <li class="list-group-item"></li>
-        <li class="list-group-item"></li>
-        <li class="list-group-item"></li>
-        <li class="list-group-item"></li>
-    </ul>
+<div class="container list d-none bg-light p-5 border">
+    <div class="tasks">
 
-    <div class="buttons">
-        <button class="btn btn-danger previous">Previous</button>
-        <button class="btn btn-success next">Next</button>
+    </div>
+    <div class="progress my-3">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
 
-    <h4 class="text-center">Your score: <span class="score">0</span>/20 points.</h4>
+    <div>
+        <h4 class="question"></h4>
+    </div>
+
+    <div>
+        <ul class="list-group">
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4 class="mt-3 text-center">Your score: <span class="score"></span>/<span class="length"></span> points.</h4>
+    </div>
 </div>
-<div class="container results" style="display: none">
+<div class="container results d-none bg-light p-5 border">
     <div class="score">
+        <h1>Results</h1>
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>#</th>
-                <th>Point/20</th>
-                <th>Average</th>
+                <th></th>
+                <th>Point / <span class="points"></span></th>
+                <th>Percent %</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <th scope="row">Your score</th>
                 <td class="userScorePoint"></td>
-                <td class="average"></td>
+                <td class="userPercent"></td>
+            </tr>
+            <tr>
+                <th scope="row">Average score</th>
+                <td class="globalAverage"></td>
+                <td class="globalPercent"></td>
             </tr>
             </tbody>
         </table>
-        <div class="btn-group-custom">
+
+        <div class="btn-group-custom text-center">
             <button class="btn btn-success btn-custom restart">Retake quiz</button>
+            <button class="btn btn-primary show-answers">Show answers</button>
+        </div>
+
+        <div class="d-none answers">
+
         </div>
     </div>
 </div>
