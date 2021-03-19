@@ -98,7 +98,7 @@
                 progressBarElem.classList.remove('bg-info');
             }
 
-            if(progress === 0) {
+            if(progress < 0) {
                 markTaskIgnored();
                 nextQuestion();
             }
