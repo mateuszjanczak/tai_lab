@@ -79,6 +79,7 @@
         }
         selectedAnswers[index] = event.target.innerHTML;
         disableAnswers();
+        clearInterval(interval);
         setTimeout(nextQuestion, 1000);
     }
 
