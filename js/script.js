@@ -85,12 +85,20 @@
     const setQuestion = (index) => {
         markTaskInProgress();
         progressBarElem.style.width = '100%';
+        progressBarElem.classList.add('bg-info');
+        progressBarElem.classList.remove('bg-danger');
 
         clearInterval(interval);
         interval = setInterval(function () {
             let progress = parseInt(progressBarElem.style.width) - 10;
             progressBarElem.style.width = progress + '%';
+            if(progress < 30) {
+                progressBarElem.classList.add('bg-danger');
+                progressBarElem.classList.remove('bg-info');
+            }
+
             if(progress === 0) {
+                markTaskIgnored();
                 nextQuestion();
             }
         }, 1000);
@@ -184,6 +192,10 @@
 
     const markTaskInCorrect = () => {
         markTask('incorrect');
+    }
+
+    const markTaskIgnored = () => {
+        markTask('ignored');
     }
 
     const getCurrentTask = () => {

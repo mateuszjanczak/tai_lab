@@ -36,6 +36,10 @@ body {
     background: #e9a83c;
 }
 
+.ignored {
+    background: gray;
+}
+
 .buttons {
     padding: 10px 10px 10px 0;
 }
