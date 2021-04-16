@@ -6,7 +6,11 @@
 </head>
 <body>
 <div class="container border p-5">
-  <p>Blog...</p>
+  <div *ngFor="let item of items$ | filter: filterText">
+    <blog-item [image]="item.url" [text]="item.title">
+    </blog-item>
+  </div>
+
 </div>
 
 <footer class="footer bg-light fixed-bottom text-center pt-3">
