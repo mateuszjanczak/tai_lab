@@ -6,12 +6,16 @@ import {HttpClient} from '@angular/common/http';
 })
 export class DataService {
 
-  private url = 'https://blogtai.herokuapp.com/api/posts/';
+  private url = 'https://blogtai.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 
   getAll() {
-    return this.http.get(this.url);
+    return this.http.get(this.url + '/api/posts/');
+  }
+
+  getById(id) {
+    return this.http.get(this.url + '/api/posts/' + id);
   }
 
 }

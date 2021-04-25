@@ -6,11 +6,12 @@
 </head>
 <body>
 <div class="container border p-5">
-  <div *ngFor="let item of items$ | filter: filterText">
-    <blog-item [image]="item.url" [text]="item.title">
-    </blog-item>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div *ngFor="let item of items$ | filter: filterText">
+      <blog-item [id]="item.id" [image]="item.image" [text]="item.title">
+      </blog-item>
+    </div>
   </div>
-
 </div>
 
 <footer class="footer bg-light fixed-bottom text-center pt-3">
