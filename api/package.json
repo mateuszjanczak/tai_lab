@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-app": ".\\node_modules\\.bin\\nodemon app"
+  },
+  "author": "Mateusz Janczak",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
