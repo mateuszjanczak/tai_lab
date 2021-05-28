@@ -4,14 +4,13 @@ import {JwtHelperService} from "@auth0/angular-jwt";
 import {map} from 'rxjs/operators';
 import {Token} from "../models/token";
 
-
 @Injectable({
   providedIn: 'root'
 })
 
 export class AuthService {
 
-  private url = 'http://localhost:3001/api';
+  private url = 'https://tai-mj.herokuapp.com/api';
 
   constructor(private http: HttpClient) {
   }

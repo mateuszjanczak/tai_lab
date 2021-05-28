@@ -24,6 +24,7 @@ import {AuthService} from "./services/auth.service";
 import {AuthInterceptor} from "./services/auth.interceptor";
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { AddPostComponent } from './components/add-post/add-post.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { SignupComponent } from './components/signup/signup.component';
     TextFormatDirective,
     SelectizeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    AddPostComponent
   ],
   imports: [
     BrowserModule,
