@@ -1,27 +1,14 @@
-# Lab
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Technologie aplikacji internetowych
+#### [Laboratorium 1 - Wstęp do aplikacji WWW. Struktura HTML](https://github.com/mateuszjanczak/tai_lab/tree/lab01)
+#### [Laboratorium 2 - System kontroli wersji GIT. HTML/CSS, framework bootstrap.](https://github.com/mateuszjanczak/tai_lab/tree/lab02)
+#### [Laboratorium 3 - HTML/CSS c.d. Wstęp do JavaScript. Manipulacje na obiekcie DOM.](https://github.com/mateuszjanczak/tai_lab/tree/lab03)
+#### [Laboratorium 4 - Operacja na obiekcie DOM. Obsługa nasłuchiwaczy. Mechanizm obietnicy](https://github.com/mateuszjanczak/tai_lab/tree/lab04)
+#### [Laboratorium 5 - Język TypeScript. Narzędzie angular-cli. Wprowadzenie do Angular.](https://github.com/mateuszjanczak/tai_lab/tree/lab05-08)
+#### [Laboratorium 6 - Angular. Tworzenie komponentów, przekazywanie danych pomiędzy komponentami. Wykorzystanie serwisów oraz dyrektyw.](https://github.com/mateuszjanczak/tai_lab/tree/lab05-08)
+#### [Laboratorium 7 - Obsługa strumienia. Subskrypcje, RxJs.](https://github.com/mateuszjanczak/tai_lab/tree/lab05-08)
+#### [Laboratorium 8 - Wstęp do NodeJS. Aplikacja Express.js.](https://github.com/mateuszjanczak/tai_lab/tree/lab05-08)
+#### [Laboratorium 9 - Konfiguracja serwera oraz połączenie z bazą danych. Testowanie utworzonych endpointów.](https://github.com/mateuszjanczak/tai_lab/tree/lab09-10)
+#### [Laboratorium 10 - Autentykacja i autoryzacja na przykładzie stosu MEAN.](https://github.com/mateuszjanczak/tai_lab/tree/lab09-10)
+#### [Laboratorium 11 - Wdrożenie aplikacji opartej o stos MEAN do chmury [Angular]](https://github.com/mateuszjanczak/tai_lab/tree/lab11-angular)
+#### [Laboratorium 11 - Wdrożenie aplikacji opartej o stos MEAN do chmury [Express]](https://github.com/mateuszjanczak/tai_lab/tree/lab11-express)
+#### [Laboratorium 11 - Wdrożenie aplikacji opartej o stos MEAN do chmury [Heroku]](https://github.com/mateuszjanczak/tai_lab/tree/lab11-heroku)
